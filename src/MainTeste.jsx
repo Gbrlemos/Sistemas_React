@@ -1,8 +1,8 @@
 import React from "react";
 import './App.css';
-import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
-const MainManutencao = () => {
+const MainTeste = () => {
 
     const navigate = useNavigate();
     const handleVoltar = () => {
@@ -13,7 +13,7 @@ const MainManutencao = () => {
         
         <div>
             <h1>Bem Vindo</h1>
-            <h2>Sistema de Manutenção</h2>
+            <h2>Sistema de Teste</h2>
             <button onClick={handleVoltar}>Voltar</button>
         </div>
         
@@ -21,4 +21,4 @@ const MainManutencao = () => {
     );
 };
 
-export default MainManutencao;
+export default MainTeste;
